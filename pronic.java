@@ -8,7 +8,7 @@ class pronic {
         ;
         System.out.println("enter the number");
         n = sc.nextInt();
-        for (i = 1; i < (n / 2 - 1); i++) {
+        for (i = 1; i < (n / 2 ); i++) {
             if (i * (i + 1) == n) {
                 flag = 1;
               
